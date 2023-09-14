@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.pl-14 {
+    padding-left: 14px;
+}
+
+.ml-48 {
+    margin-left: 48px;
+}
+
+.bg-grey {
+    background-color: #F7F7F7;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-box {
+    padding: 13px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.pl-6 {
+    padding-left: 6px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.mt--8 {
+    margin-top: -8px;
+}
+
+.pt-6{
+    padding-top: 6px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.btn {
+    padding: 10px 32px;
+    background-color: #9E3040;
+    color: white;
+    font-size: 18px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-img {
+    background-image: url("../images/hero-img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li ul.dropdown li {
+    text-align: center;
+    opacity: 1;
+}
+
+ul li ul.dropdown {
+    padding-left: 10px;
+    padding: 5px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+}
+
+.towel:focus+ul.dropdown {
+    opacity: 1;
+}
+
+.towel:focus>.arrow {
+    rotate: 180deg;
+}
+
+.towel {
+    border: none;
+    background-color: #fff;
+}
+
+.dropdown,
+.arrow {
+    transition: all 200ms linear;
+}
+
+.phone,
+.location,
+.mail {
+    color: #232323;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-offer {
+    color: #9E3040;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.logo {
+    color: #9E3040;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.sub-links,
+.nav-links {
+    color: #686868;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-head {
+    max-width: 460px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 117.1%;
+}
+
+.main-para {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn1{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 28px;
+    background-color: #fff;
+    color: #9E3040;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn1-arrow{
+    margin-left: 10px;
+}
