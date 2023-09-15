@@ -486,3 +486,47 @@ ul li ul.dropdown {
     border: none;
     background-color: #9E3040;
 }
+
+.S6-head {
+    color: #232323;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Red-box {
+    background-color: #9E3040;
+    border-radius: 30px;
+    padding: 30px 64px;
+}
+
+.Red-box-para {
+    padding-top: 70px;
+    width: 920px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Red-box-b-para {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+.b-commas{
+    right: 5%;
+    bottom: 10%;
+}
