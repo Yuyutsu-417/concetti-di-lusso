@@ -622,3 +622,91 @@ ul li ul.dropdown {
     background-color: #9E3040;
     border: none;
 }
+
+.form-py {
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+
+.bg-grey {
+    background-color: #F3F5F6;
+}
+
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-links {
+    color: #303030;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb--24 {
+    margin-bottom: -40px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.ml-17 {
+    margin-left: 17px;
+}
+
+.my-29 {
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.f-mail {
+    width: 250px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mx-12 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mb-location {
+    margin-bottom: 35px;
+}
+
+.pl-32 {
+    padding-left: 32px;
+}
+
+.footer-head {
+    color: #232323;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ml--50{
+    margin-left: -50px;
+}
