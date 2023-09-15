@@ -577,3 +577,48 @@ ul li ul.dropdown {
     border-radius: 10px;
     overflow: hidden;
 }
+
+.S8-head {
+    text-align: center;
+    color: #232323;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.S8-para {
+    max-width: 600px;
+    color: #303030;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.form {
+    border-radius: 5px;
+    padding: 13px 150px 13px 23px;
+    border: 1px solid #9E3040;
+}
+
+.form-button {
+    border-radius: 5px;
+    padding: 10px 37px;
+    color: #FFF;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #9E3040;
+    border: none;
+}
