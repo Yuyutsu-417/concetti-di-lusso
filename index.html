@@ -65,13 +65,23 @@
             </div>
         </div>
         <nav>
-            <div class="container">
+            <div class="container position-relative">
                 <div class="d-flex align-items-center justify-content-between py-30">
                     <div>
                         <h3 class="logo">CONCETTI DI-LUSSO</h3>
                     </div>
                     <div class="pt-10">
-                        <ul class="d-flex menu">
+                        <div class="position-absolute menu-button">
+                            <label id="label" for="menu">
+                                <span class="line1"></span>
+                                <span class="line2"></span>
+                                <span class="line3"></span>
+                            </label>
+                        </div>
+
+                        <input type="checkbox" id="menu" hidden>
+
+                        <ul class="d-flex mobile-view">
                             <li class="px-3"><a href="" class="nav-links">Home</a></li>
                             <li class="px-3">
                                 <button href="" class="towel nav-links">Towels
@@ -89,6 +99,7 @@
                             </li>
                             <li class="px-3"><a href="" class="nav-links">Robes</a></li>
                             <li class="px-3"><a href="" class="nav-links">Bathroom Sets</a></li>
+                            <li><a href=""></a><button class="btn-btn">SIGN IN</button></li>
                         </ul>
                     </div>
                     <div class="d-flex gap-20">
@@ -124,7 +135,7 @@
                         </a>
                         <a href="" class="pl-6"><button class="btn">SIGN IN</button></a>
                     </div>
-                    <label id="label"><span></span></label>
+
                 </div>
             </div>
         </nav>
@@ -279,8 +290,7 @@
                     <p class="mt--8 S2-para">We have dedicated Support</p>
                 </div>
                 <div class="lines position-absolute">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="82" viewBox="0 0 1440 82"
-                        fill="none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="82" viewBox="0 0 1440 82" fill="none">
                         <path opacity="0.3"
                             d="M0.5 1.5C97.8333 30.8333 346.5 39.5 574.5 24C862.44 4.42515 1035.5 17.5 1277 68.5C1470.2 109.3 1504.5 40.1667 1497.5 0.5"
                             stroke="#9E3040" stroke-width="2" stroke-dasharray="10 10" />
@@ -378,8 +388,8 @@
                             super-absorbent fabric that is also antibacterial
                             thanks to the natural properties of bamboo.</p>
                         <button class="mt-21 S4-box-btn">SHOP NOW
-                            <svg class="ml-10" xmlns="http://www.w3.org/2000/svg" width="30" height="12" viewBox="0 0 30 12"
-                                fill="none">
+                            <svg class="ml-10" xmlns="http://www.w3.org/2000/svg" width="30" height="12"
+                                viewBox="0 0 30 12" fill="none">
                                 <path
                                     d="M29.8586 6.14142C29.9367 6.06332 29.9367 5.93668 29.8586 5.85858L24.3414 0.341421C24.2154 0.215428 24 0.304662 24 0.482843V4.3C24 4.41046 23.9105 4.5 23.8 4.5H0.200001C0.0895443 4.5 0 4.58954 0 4.7V7.3C0 7.41046 0.0895431 7.5 0.2 7.5H23.8C23.9105 7.5 24 7.58954 24 7.7V11.5172C24 11.6953 24.2154 11.7846 24.3414 11.6586L29.8586 6.14142Z"
                                     fill="white" />
@@ -634,6 +644,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>

@@ -66,6 +66,23 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    border: 1px solid transparent;
+    transition: all 300ms linear;
+}
+
+.btn-btn {
+    border: none;
+    padding: 10px 32px;
+    background-color: #9E3040;
+    color: white;
+    font-size: 18px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: none;
+    border-radius: 5px;
 }
 
 .hero-img {
@@ -176,7 +193,7 @@ ul li ul.dropdown {
 }
 
 .btn1 {
-    border: none;
+    border: 1px solid transparent;
     border-radius: 5px;
     padding: 10px 28px;
     background-color: #fff;
@@ -186,6 +203,7 @@ ul li ul.dropdown {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    transition: all 300ms linear;
 }
 
 .btn1-arrow {
@@ -196,7 +214,7 @@ ul li ul.dropdown {
     padding-bottom: 48px;
 }
 
-.py-16{
+.py-16 {
     padding-top: 16px;
     padding-bottom: 16px;
 }
@@ -315,6 +333,7 @@ ul li ul.dropdown {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    transition: all 300ms linear;
 }
 
 .S3-img-text {
@@ -358,7 +377,8 @@ ul li ul.dropdown {
     line-height: normal;
     background-color: #9E3040;
     border-radius: 5px;
-    border: none;
+    border: 1px solid transparent;
+    transition: all 300ms linear;
 }
 
 .mt-90 {
@@ -411,9 +431,10 @@ ul li ul.dropdown {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    border: none;
+    border: 1px solid transparent;
     background-color: #232323;
     border-radius: 5px;
+    transition: all 300ms linear;
 }
 
 .S5-head {
@@ -484,6 +505,7 @@ ul li ul.dropdown {
 }
 
 .S5-btn {
+    border-radius: 5px;
     color: #FFF;
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 18px;
@@ -491,7 +513,8 @@ ul li ul.dropdown {
     font-weight: 600;
     line-height: normal;
     padding: 10px 28px;
-    border: none;
+    border: 1px solid transparent;
+    transition: all 300ms linear;
     background-color: #9E3040;
 }
 
@@ -630,7 +653,7 @@ ul li ul.dropdown {
     padding-left: 23px;
     border-radius: 5px;
     width: 380px;
-    border: 1px solid #9E3040;
+    border: 1px solid #E2C1C6;
 }
 
 .form-button {
@@ -643,7 +666,8 @@ ul li ul.dropdown {
     font-weight: 600;
     line-height: normal;
     background-color: #9E3040;
-    border: none;
+    border: 1px solid transparent;
+    transition: all 300ms linear;
 }
 
 .form-py {
@@ -750,45 +774,62 @@ ul li ul.dropdown {
     -webkit-text-stroke: 0.75px black;
 }
 
-#label{
-    display: block;
-    position: relative;
-    width: 20px;
-    height: 30px;
-    float: right;
-    z-index: 5 !important;
-    cursor: pointer;
+.phone:hover,
+.mail:hover,
+.location:hover,
+.footer-links:hover{
+    -webkit-text-stroke: 1px black;
 }
 
-label>span{
-    content: "";
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 20px;
-    height: 3px;
+.g-com{
+    transition: all 300ms linear;
+    overflow: hidden;
+}
+
+.g-com>img {
+    height: 100%;
+    transition: all 250ms linear;
+}
+
+.g-com:hover>img {
+    transform: scale(1.15);
+}
+
+.btn:hover,
+.S3-btn:hover,
+.S5-btn:hover,
+.form-button:hover{
+    color: #9E3040;
+    background-color: #fff;
+    border: 1px solid #9E3040;
+}
+
+.btn-2:hover{
+    color: #232323;
+    background-color: white;
+}
+
+.btn1:hover{
+    color: white;
     background-color: #9E3040;
-    z-index: 5 !important;
-    display: block;
+    border: 1px solid #9E3040;
 }
 
-label::before{
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 20px;
-    background-color: #9E3040;
-    z-index: 5 !important;
-    bottom: -6px;
+.btn1:hover path{
+    fill: white;
 }
 
-label::after{
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 20px;
-    background-color: #9E3040;
-    z-index: 5 !important;
-    bottom: 6px;
+.S4-box-btn:hover{
+    color: #232323;
+    background-color: white;
+    border: 1px solid #232323;
 }
 
+.S4-box-btn:hover path{
+    fill: #232323;
+}
+
+.menu-button{
+    right: 0%;
+    top: 45%;
+}
