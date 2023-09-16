@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Open+Sans&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -194,6 +196,11 @@ ul li ul.dropdown {
     padding-bottom: 48px;
 }
 
+.py-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 .py-48 {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -216,6 +223,7 @@ ul li ul.dropdown {
 }
 
 .S2-para {
+    text-align: center;
     color: #303030;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -457,14 +465,14 @@ ul li ul.dropdown {
     padding-top: 40px;
     padding-left: 18px;
     padding-right: 18px;
-    padding-bottom: 28px;
+    padding-bottom: 33px;
 }
 
 .S5-box-padding3 {
     padding-top: 40px;
     padding-left: 18px;
     padding-right: 18px;
-    padding-bottom: 67px;
+    padding-bottom: 79px;
 }
 
 .mt-5px {
@@ -488,6 +496,7 @@ ul li ul.dropdown {
 }
 
 .S6-head {
+    text-align: center;
     color: #232323;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Hind Siliguri', sans-serif;
@@ -495,6 +504,14 @@ ul li ul.dropdown {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-26 {
+    margin-top: 26px;
 }
 
 .Red-box {
@@ -505,7 +522,7 @@ ul li ul.dropdown {
 
 .Red-box-para {
     padding-top: 70px;
-    width: 920px;
+    max-width: 800px;
     color: #FFF;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -524,6 +541,11 @@ ul li ul.dropdown {
     font-weight: 600;
     line-height: normal;
     padding-bottom: 30px;
+}
+
+.t-commas {
+    left: 5%;
+    top: 10%;
 }
 
 .b-commas {
@@ -605,8 +627,9 @@ ul li ul.dropdown {
 }
 
 .form {
+    padding-left: 23px;
     border-radius: 5px;
-    padding: 13px 150px 13px 23px;
+    width: 380px;
     border: 1px solid #9E3040;
 }
 
@@ -667,6 +690,10 @@ ul li ul.dropdown {
     gap: 30px;
 }
 
+.ml-10 {
+    margin-left: 10px;
+}
+
 .ml-17 {
     margin-left: 17px;
 }
@@ -707,6 +734,61 @@ ul li ul.dropdown {
     line-height: normal;
 }
 
-.ml--50{
+.ml--50 {
     margin-left: -50px;
 }
+
+.mr--12 {
+    margin-right: -12px;
+}
+
+.nav-links:hover {
+    -webkit-text-stroke: 0.75px black;
+}
+
+.sub-links:hover {
+    -webkit-text-stroke: 0.75px black;
+}
+
+#label{
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 30px;
+    float: right;
+    z-index: 5 !important;
+    cursor: pointer;
+}
+
+label>span{
+    content: "";
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 3px;
+    background-color: #9E3040;
+    z-index: 5 !important;
+    display: block;
+}
+
+label::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 20px;
+    background-color: #9E3040;
+    z-index: 5 !important;
+    bottom: -6px;
+}
+
+label::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 20px;
+    background-color: #9E3040;
+    z-index: 5 !important;
+    bottom: 6px;
+}
+
