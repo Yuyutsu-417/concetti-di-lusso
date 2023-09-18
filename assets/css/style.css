@@ -821,6 +821,11 @@ ul li ul.dropdown {
     border: 1px solid #9E3040;
 }
 
+.btn1 path,
+.S4-box-btn path{
+    transition: 300ms all linear;
+}
+
 .btn1:hover path{
     fill: white;
 }
