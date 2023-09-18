@@ -612,7 +612,6 @@
 }
 
 @media (min-width:1200px) {
-
     .nav-links,
     .sub-links {
         font-size: 18px;
@@ -705,6 +704,12 @@
     }
 
     .lines {
+        left: 38%;
+    }
+}
+
+@media (min-width:1400px) {
+    .lines{
         left: 45%;
     }
 }
